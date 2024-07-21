@@ -1,0 +1,161 @@
+:root{
+    font-size: 16px;
+    font-family: Poppins,sans-serif;
+    --main-color: #ddd;
+}
+div[class="heading"] h1{
+    font-size: 2rem;
+    padding-top: 20px;
+}
+section[class="get-email"] input{
+    display: block;
+    margin: 10px auto;
+    width: 20rem;
+    height: 3vh;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0);
+}
+#submit{
+    width: 10rem;
+    text-transform: uppercase;
+    background-color: rgb(223, 223, 0);
+    
+    
+}
+#submit:hover{
+    background-color: rgb(230, 176, 0);
+}
+body{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--main-color);
+}
+#header{
+    background-color: var(--main-color);
+    width: 100%;
+    position:fixed;
+    display:flex;
+    justify-content: space-around;
+    top:0;
+    padding: 0.2%;
+    min-height: 70px;
+    align-items: center;
+    z-index: 999;
+    flex-wrap: wrap;
+}
+#header img{
+    height: auto;
+}
+#header a{
+    font-size: 1.2rem;
+    color: black;
+}
+#header img:hover,i:hover{
+    transform: scale(110%);
+}
+#header a:hover{
+    color: rgb(150, 150, 0);
+}
+main{
+    text-align: center;
+    width: 80%;
+    
+    margin: 120px auto;
+}
+#nav-bar{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-link{
+    margin-left: 50%;
+}
+#page-wrapper{
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+}
+#benefits{
+    display: flex;
+    flex-direction: column;
+    margin:30px auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#benefits > div{
+    width: 60%;
+    display: flex;
+    align-items: center; 
+    
+}
+
+.ben-description{
+    
+    text-align: left;
+    margin-left: 10%;
+}
+i{
+    font-size: 3rem;
+}
+#demonstration{
+    margin-bottom: 2%;
+}
+#packages{
+    
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+#packages > div{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    flex-wrap:wrap
+}
+ #packages > div > div{
+    
+    border: 1px solid rgb(114, 114, 114);
+    width: 22rem;   
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+#packages h4{
+    width: 100%;
+    background-color: bisque;
+    margin-top: auto;
+    padding: 30px auto;
+    font-size: 2rem;
+    
+}
+#packages ul{
+    font-size: 1.4rem;
+    margin-right: 12%;
+}
+ ul{
+    list-style-type: none;
+    
+ }
+ #demonstration{
+    margin: 50px auto 50px auto;
+    width:50%;
+    height: 360px;
+    
+ }
+ iframe{
+    width: 100%;
+    height: 100%;
+ }
+
+ @media (max-width: 480px) {
+    i{
+        display:none;
+    }
+}
